@@ -24,7 +24,17 @@
 
   gtag('config', 'UA-49295208-2');
 </script>
+ <!-- Note: plugin scripts must be included after the tracking snippet. -->
+<script src="https://ipmeta.io/plugin.js"></script>
 
+<script>
+   provideGtagPlugin({
+      apiKey: 'b710086b74ff8b2d41218203ea4737e92d7437ad78d29120600648bdefa3c467',
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+   });
+</script>
   
  </head>
  
